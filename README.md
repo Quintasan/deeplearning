@@ -4,8 +4,8 @@ This directory contains a `Dockerfile` that will prevent your from gouging your 
 
 ## Requirements
 
-1. (Docker)[https://docs.docker.com/engine/installation/linux/ubuntulinux/]
-2. (NVIDIA Docker)]https://github.com/NVIDIA/nvidia-docker] if you want GPU (you probably do)
+1. [Docker](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
+2. [NVIDIA Docker](https://github.com/NVIDIA/nvidia-docker) if you want GPU (you probably do)
 3. NVIDIA drivers on your host if you installed NVIDIA Docker.
 
 ## How to use this?
