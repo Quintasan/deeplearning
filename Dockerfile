@@ -22,7 +22,7 @@ RUN pip3 install --upgrade --no-deps git+git://github.com/Theano/Theano.git
 
 RUN echo "[global]\ndevice=gpu\nfloatX=float32\n[lib]\ncnmem=0.5\n[nvcc]\nfastmath=True" > /root/.theanorc
 
-RUN pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-0.12.0rc0-cp35-cp35m-linux_x86_64.whl
+RUN pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-0.12.1-cp35-cp35m-linux_x86_64.whl
 
 RUN pip3 install --upgrade git+git://github.com/fchollet/keras.git
 
